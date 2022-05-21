@@ -99,7 +99,7 @@ const Sikomoku = () => {
         </Box>
         <Box component="div" className={classes.container}>
           <Typography color="secondary" variant="h4" className={classes.title}>
-            {user}
+            Dewi Barotuttaqiyah Taqiyah
           </Typography>
           <Typography variant="h5" className={classes.subTitle}>
             NIM: 21129251031

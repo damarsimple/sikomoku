@@ -69,7 +69,7 @@ const AcitivityImage = () => {
           margin: "2rem 0",
         }}
       >
-        grade
+        Level
       </Typography>
       <Grid
         container
