@@ -1,7 +1,6 @@
 import { useRouter } from "next/router";
-import AcitvityDays from "../../components/ActivityDay";
-import { ActivityForm } from "../../components/ActivityForm";
-import AcitivityImage from "../../components/ActivityImage";
+import AcitvityDays from "components/ActivityDay";
+import AcitivityImage from "components/ActivityImage";
 
 const Acitivity = () => {
   const router = useRouter();
@@ -14,8 +13,8 @@ const Acitivity = () => {
       return <AcitivityImage />;
     case "level-three":
       return <AcitvityDays />;
-    case "activity":
-      return <ActivityForm />;
+
+      return <>Invalid Activity</>;
   }
 };
 

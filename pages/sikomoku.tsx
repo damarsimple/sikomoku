@@ -1,7 +1,6 @@
 import { useContext } from "react";
 import { Typography, Box, Theme, Container, Grid } from "@mui/material";
 import { makeStyles } from "@mui/styles";
-import { UserContext } from "../context/user";
 import Link from "next/link";
 
 const level = [
@@ -74,7 +73,6 @@ const useStyles = makeStyles((theme: Theme) => ({
 }));
 
 const Sikomoku = () => {
-  const { user } = useContext(UserContext);
   const classes = useStyles();
 
   return (
@@ -99,7 +97,7 @@ const Sikomoku = () => {
         </Box>
         <Box component="div" className={classes.container}>
           <Typography color="secondary" variant="h4" className={classes.title}>
-           Dewi Barotut Taqiyah
+            Dewi Barotuttaqiyah Taqiyah
           </Typography>
           <Typography variant="h5" className={classes.subTitle}>
             NIM: 21129251031

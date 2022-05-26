@@ -20,12 +20,21 @@
         "@mui/material": "^5.8.0",
         "@mui/styles": "^5.8.0",
         "@mui/x-date-pickers": "^5.0.0-alpha.3",
+        "@prisma/client": "3.14.0",
+        "@types/cookie": "^0.5.1",
+        "@types/lodash": "^4.14.182",
+        "@types/react-query": "^1.2.9",
+        "axios": "^0.27.2",
+        "cookie": "^0.5.0",
         "date-fns": "^2.28.0",
         "graphql": "^16.5.0",
+        "lodash": "^4.17.21",
         "next": "12.1.6",
         "react": "18.1.0",
         "react-dom": "18.1.0",
         "react-hook-form": "^7.31.1",
+        "react-query": "^3.39.0",
+        "ts-node-dev": "^2.0.0",
         "zustand": "^4.0.0-rc.1"
     },
     "devDependencies": {
@@ -34,6 +43,7 @@
         "@types/react-dom": "18.0.4",
         "eslint": "8.15.0",
         "eslint-config-next": "12.1.6",
+        "prisma": "^3.14.0",
         "typescript": "4.6.4"
     }
 }
